@@ -5,9 +5,7 @@ import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import WishImg from "../../assets/imgs/wishlist_9460174.png";
 import { useDispatch, useSelector } from "react-redux";
-import HomeCard from "../Items/HomeCArd";
 import WishItem from "../Items/WishItem";
-import { removeItem } from "../../Redux/Slices/CartSlice";
 
 const WishList = () => {
   const [wishListFull, setWishListFull] = useState(false);
