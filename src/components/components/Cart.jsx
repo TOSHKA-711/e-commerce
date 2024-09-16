@@ -100,7 +100,7 @@ const Cart = () => {
                 </h4>
               </span>
             </div>
-            <Link className=" flex-container-row" to="/payment">
+            <Link className=" flex-container-row" to="/e-commerce/payment">
               <button className="btn">Checkout</button>
             </Link>
           </div>

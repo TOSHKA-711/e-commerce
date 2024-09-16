@@ -16,11 +16,11 @@ function App() {
 
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/selectedProduct" element={<SelectedProduct />} />
-        <Route path="/payment" element={<Payment />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/wishList" element={<WishList />} />
+        <Route path="/e-commerce/" element={<Home />} />
+        <Route path="/e-commerce/selectedProduct" element={<SelectedProduct />} />
+        <Route path="/e-commerce/payment" element={<Payment />} />
+        <Route path="/e-commerce/cart" element={<Cart />} />
+        <Route path="/e-commerce/wishList" element={<WishList />} />
       </Routes>
       <Footer />
     </BrowserRouter>

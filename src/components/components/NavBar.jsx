@@ -61,7 +61,7 @@ const NavBar = () => {
       <div className="navbar flex-parent">
         <div className="container flex-container-row">
           <div className="logo">
-            <Link className=" flex-container-row" to="/">
+            <Link className=" flex-container-row" to="/e-commerce/">
               <img src={logo} />
             </Link>
           </div>
@@ -81,7 +81,7 @@ const NavBar = () => {
             </Box>
           </div>
           <div className="nav-links flex-container-row">
-            <Link to="/" className="nav-link flex-container-row">
+            <Link to="/e-commerce/" className="nav-link flex-container-row">
               <p className="active">Home</p>
             </Link>
             <p href="#">About</p>
@@ -91,10 +91,10 @@ const NavBar = () => {
             <p href="#">Blog</p>
           </div>
           <div className="nav-icons flex-container-row">
-            <Link className="flex-container-row" to="/wishList">
+            <Link className="flex-container-row" to="/e-commerce/wishList">
               <FavoriteBorderIcon className="icon" />
             </Link>
-            <Link className="flex-container-row" to="/cart">
+            <Link className="flex-container-row" to="/e-commerce/cart">
               <ShoppingCartOutlinedIcon className="icon" />
             </Link>
             <Link className="flex-container-row">
@@ -115,7 +115,7 @@ const NavBar = () => {
         >
           <div className="container flex-container-column">
             <div className="toggle-nav-links nav-links flex-container-row">
-              <Link onClick={handleToggleNav} to="/">
+              <Link onClick={handleToggleNav} to="/e-commerce/">
                 <p className="active">Home</p>
               </Link>
 
