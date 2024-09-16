@@ -1,0 +1,107 @@
+.cart{
+   padding: 3rem 0;
+}
+.cart .container {
+    gap: 2rem;
+    width: 75%;
+    align-items: flex-start;
+}
+.cart .container .products{
+    align-items: flex-start;
+}
+.cart .container .summary{
+    align-items: flex-start;
+    gap: 1rem;
+    border: #dedede 1px solid;
+    padding: 3rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 40%;
+}
+.cart .container .summary .child{
+ width: 100%;
+}
+
+.cart .container .summary .child span{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 0;
+
+}
+.cart .container .summary .child span p{
+color: #919191;
+}
+.cart .container .summary .child span p.final{
+color: #000;
+font-weight: 700;
+font-size: 18px;
+}
+.cart .container .summary .btn{
+align-self: center;
+width: 100%;
+background-color: #000;
+color: #fff;
+}
+.MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root.css-y4n9bg-MuiFormControl-root-MuiTextField-root {
+    margin: 10px 0 !important;
+}
+
+
+@media screen and (max-width:1080px) {
+    .cart .container {
+        gap: 2rem;
+        width: 90%;
+   
+    }
+}
+@media screen and (max-width:860px) {
+    .cart .container {
+        gap: 2rem;
+        width: 75%;
+        flex-direction: column;
+   
+    }
+    .cart .container .summary {
+        width: 100%;
+    }
+}
+@media screen and (max-width:561px) {
+    .cart .container {
+
+        width: 85%;
+      
+   
+    }
+    .cart-item {
+        flex-wrap: wrap;
+    }
+    .cart-item-number {
+        gap: 20px;
+        width: 100%;
+    }
+    .cart-item-number h5.price {
+        padding: 0 20px;
+    }
+    .cart-item-name {
+        width: 60% !important;
+    }
+}
+
+
+.cart .alt-img{
+    flex-direction: column;
+    gap: 2rem;
+}
+.cart .alt-img h1{
+  color: #919191;
+  font-size: 40px;
+}
+.cart .alt-img img{
+  width: 15vw;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}

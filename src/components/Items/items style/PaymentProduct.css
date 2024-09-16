@@ -1,0 +1,28 @@
+
+
+.pay-product{
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-between !important;
+}
+
+.pay-product .child {
+gap: 10px;
+justify-content: flex-end;
+}
+.pay-product .child img{
+width: 2.5rem;
+}
+.pay-product .child p{
+font-size: 14px;
+}
+.pay-product .child p.price{
+font-size: 15px;
+font-weight: 800;
+}

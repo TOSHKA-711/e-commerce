@@ -1,0 +1,55 @@
+.cards {
+    padding: 3rem 0;
+  }
+  
+  .cards .container {
+    width: 75%;
+    align-items: flex-start;
+    gap:2rem;
+  }
+  .cards .container .categories {
+    gap: 25px;
+  }
+  .cards .container .categories p {
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+  
+  }
+  
+  
+  .cards .container .categories p::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #000;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  }
+  .cards .container .categories p:hover::after {
+    width: 100%;
+  }
+  .cards .container .categories p.active::after {
+    width: 100%;
+  }
+  .cards .container .children {
+   width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+   
+  }
+  
+  

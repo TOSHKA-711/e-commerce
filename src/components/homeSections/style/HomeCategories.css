@@ -1,0 +1,61 @@
+
+
+
+.home-cats {
+background-color: #FAFAFA;
+padding: 3rem 0;
+    
+
+}
+.home-cats .container{
+    width: 75%;
+    align-items: flex-start;
+    gap: 1rem;
+
+}
+.home-cats .container .title{
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.home-cats .container .childs{
+width: 100%;
+gap: 2rem;
+}
+.home-cats .container .childs .child{
+    flex-grow: 1;
+    background-color: #ededed;
+    color: #000;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px 0;
+    cursor: pointer;
+    transition:0.3s all ease-in-out ;
+    -webkit-transition:0.3s all ease-in-out ;
+    -moz-transition:0.3s all ease-in-out ;
+    -ms-transition:0.3s all ease-in-out ;
+    -o-transition:0.3s all ease-in-out ;
+}
+.home-cats .container .childs .child:hover{
+scale: 1.03;
+}
+.home-cats .container .childs .child .icon{
+font-size: 30px;
+}
+
+@media screen and (max-width:1216px) {
+  .home-cats .container .childs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+}
+@media screen and (max-width:580px) {
+  .home-cats .container .childs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+}

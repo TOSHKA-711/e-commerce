@@ -1,0 +1,92 @@
+.posters .container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+}
+.posters .container .poster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.posters .container .poster img {
+  scale: 0.92;
+}
+.posters .container .poster img.small {
+  display: none;
+}
+.posters .container .poster .poster-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 30px;
+}
+.posters .container .poster .poster-info h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 50px;
+}
+.posters .container .poster .poster-info h2 span {
+  font-weight: 500;
+}
+.posters .container .poster .poster-info p {
+  color: #a3a3a3;
+  font-size: 14px;
+}
+
+.posters .container .ps5 {
+  grid-area: 1/1/2/3;
+}
+.posters .container .head-phone {
+  grid-area: 2/1/3/2;
+  background-color: #ededed;
+}
+.posters .container .vision {
+  grid-area: 2/2/3/3;
+  background-color: #353535;
+}
+.posters .container .vision .poster-info h2 {
+  color: #fff;
+}
+.posters .container .mac {
+  grid-area: 1/3/3/5;
+  flex-direction: row-reverse;
+  background-color: #ededed;
+}
+
+@media screen and (max-width: 1145px) {
+  .posters .container {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .posters .container .poster {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+  }
+  .posters .container .poster img.small {
+    display: flex;
+  }
+  .posters .container .poster img.big {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .posters .container .poster {
+    flex-direction: column;
+    gap: 2rem;
+   
+  }
+  .posters .container .poster .poster-info {
+    align-items: center;
+    text-align: center;
+  }
+  .posters .container .poster .poster-info .btn {
+    align-self: stretch;
+}
+}

@@ -1,0 +1,17 @@
+
+
+.wish-list{
+    padding: 3rem 0;
+}
+
+.alt-wishList{
+    flex-direction: column;
+    gap: 2rem;
+}
+.alt-wishList h2{
+   font-size: 40px;
+   color: #919191;
+}
+.alt-wishList img{
+width: 20vw;
+}

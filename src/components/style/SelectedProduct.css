@@ -1,0 +1,28 @@
+
+.selected-product {
+    padding: 3rem 0;
+}
+.selected-product .container{
+    width: 75%;
+}
+
+
+@media screen and (max-width:1161px) {
+    .selected-product .container{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .selected-product .container{
+        width: 85%;
+    }
+    .selected-routes {
+        margin-bottom: 2rem;
+      }
+      .selected-routes .container {
+   
+        gap: 10px;
+    }
+  }
+
