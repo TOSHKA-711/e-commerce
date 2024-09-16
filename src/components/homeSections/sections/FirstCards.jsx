@@ -1,5 +1,5 @@
 import React from "react";
-import HomeCard from "../../Items/HomeCArd";
+import HomeCard from "../../Items/HomeCard";
 import "../style/FirstCards.css";
 import img1 from "../../../assets/imgs/home cards/Iphone 14 pro 1.png";
 import img2 from "../../../assets/imgs/home cards/Iphone 14 pro 1 (1).png";
