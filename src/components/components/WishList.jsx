@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "../style/WishList.css";
-import CartItem from "../Items/CartItem";
-import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
 import WishImg from "../../assets/imgs/wishlist_9460174.png";
 import { useDispatch, useSelector } from "react-redux";
 import WishItem from "../Items/WishItem";

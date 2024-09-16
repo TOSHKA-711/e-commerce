@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "../style/Cart.css";
 import CartItem from "../Items/CartItem";
 import AltImg from "../../assets/imgs/cart_16545412.png";
-import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import { useDispatch, useSelector } from "react-redux";
 import { addItem, removeItem } from "../../Redux/Slices/CartSlice";
