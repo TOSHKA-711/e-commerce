@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [react()],
   
   // Set the base URL for your project
-  base: '/e-commerce/',  // Replace with your actual subdirectory or repo name
+  base: '/',  // Replace with your actual subdirectory or repo name
 })
