@@ -1,5 +1,5 @@
 import React from "react";
-import HomeCard from "../../Items/HomeCArd";
+import HomeCard from "../../Items/HomeCard";
 import "../style/LastCards.css";
 import img1 from "../../../assets/imgs/home cards/last card 1.png";
 import img2 from "../../../assets/imgs/home cards/last card 2.png";
