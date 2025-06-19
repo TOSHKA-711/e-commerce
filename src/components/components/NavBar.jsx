@@ -48,12 +48,7 @@ const NavBar = () => {
       duration: 1.5,
       stagger: 0.1,
     });
-    // gsap.from(".nav-icons ", {
-    //   x: 20,
-    //   opacity: 0,
-    //   duration: 1.5,
-    //   stagger: 0.1,
-    // });
+
   });
 
   return (
